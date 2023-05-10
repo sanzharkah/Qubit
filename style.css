@@ -4,10 +4,13 @@
   padding: 0;
 }
 
+
 .container {
     width: 100%;
     height: 755px;
 }
+
+
 .header {
     font-family: 'Roboto';
     width: 100%;
@@ -20,11 +23,13 @@
 }
 
 
+
 .content {
     width: 100%;
     height: 695px;
     background-image: url("./images/Rectangle.png");
 }
+
 
 .img1 img {
     width: 100%;
@@ -32,11 +37,13 @@
     
 }
 
+
   
 .logo {
     cursor: pointer;
   }
   
+
 .nav__links a,
 .cta,
 .overlay__content a {
@@ -46,6 +53,7 @@
     text-decoration: none;
   }
   
+
 .nav__links {
     /* display: flex;
     justify-content: center; */
@@ -53,18 +61,22 @@
     display: flex;
   }
   
+
 .nav__links li {
     padding: 0px 20px;
   }
   
+
 .nav__links li a {
     transition: color 0.3s ease 0s;
   }
   
+
 .nav__links li a:hover {
     color: palevioletred;
   }
   
+
 .cta {
     padding: 9px 25px;
     background-color: #6F2CFF;
@@ -76,16 +88,19 @@
     
   }
   
+
 .cta:hover {
     background-color: palevioletred;
   }
   
   /* Mobile Nav */
   
+
 .menu {
     display: none;
   }
   
+
 .overlay {
     height: 100%;
     width: 0;
@@ -98,10 +113,12 @@
     transition: width 0.5s ease 0s;
  }
 
+
 .overlay--active {
     width: 100%;
   }
   
+
 .overlay__content {
     display: flex;
     height: 100%;
@@ -109,6 +126,7 @@
     align-items: center;
     justify-content: center;
   }
+
 
 .overlay a {
     padding: 15px;
@@ -118,6 +136,7 @@
     color: white;
   }
   
+
 .overlay a:hover,
 .overlay a:focus {
     color: palevioletred;
@@ -152,17 +171,22 @@
 }
 
 
+
 .content {
   display: flex;
   align-items: center;
   padding: 100px;
 }
 
+
+
 .texts {
   width: 500px;
   height: 400px;
   font-family: 'Roboto';
 }
+
+
 
 .txt1 {
   font-style: normal;
@@ -171,30 +195,45 @@
   line-height: 21px;
   color: black;
 }
+
+
+
 .txt2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 61px;
   color: black;
 }
+
+
+
 .txt3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 61px;
   color: #6F2CFF;
 }
+
+
+
 .txt4 {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   color: black;
 }
+
+
+
 .poisk input{
   height: 45px;
   width: 268px;
   border-radius:  50px 0px 0px 50px;
   border-color: #6F2CFF;
 }
+
+
+
 .but {
   height: 45px;
   width: 187px;
@@ -206,11 +245,15 @@
 
 }
 
+
+
 .brends {
   height: 210px;
   width: 100%;
   font-family: 'Roboto';
 }
+
+
 
 .nav_brends {
   margin-top: 10px;
@@ -221,11 +264,16 @@
     list-style: none;
 }
 
+
+
 .h4 {
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
+
+
+
 .h5 {
   height: 35px;
   display: flex;
@@ -236,9 +284,178 @@
   width: 11%;
   border-bottom: 2.5px solid #6F2CFF;
 }
+
+
+
 .h6 {
+
   display: flex;
   justify-content: center;
 }
 
 
+.content3 {
+  width: 100%;
+  height: 967px;
+  background: #F5F5F5;
+}
+
+
+.txtcon3 {
+  font-family: 'Roboto';
+  width: 100%;
+  height: 225px;
+  padding: 68px;
+}
+
+
+.h13 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 22px;
+}
+
+
+.p3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+
+.img33 {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+
+.img3 {
+  display: flex;
+  width: 996px;
+  height: 560px;
+  background-image: url(./images/Rectangle8.png);
+}
+
+
+.butcont {
+  display: flex;
+  justify-content: center;
+}
+
+
+.butcon3 {
+  height: 45px;
+  width: 187px;
+  background: #6F2CFF;
+  color: white;
+  margin-left: -10px;
+  border: #6F2CFF;
+  border-radius: 30px;
+}
+
+.butcon34 {
+  height: 45px;
+  width: 187px;
+  background: white;
+  color: #6F2CFF;
+  margin-left: -10px;
+  border-radius: 30px;
+  border: white;
+}
+
+.content4 {
+  width: 100%;
+  height: 695px;
+  font-family: 'Roboto';
+}
+
+.h1con4 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 58px;
+}
+.pcon4 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 22px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 130px;
+  margin-top: -70px;
+  font-family: 'Roboto';
+}
+.grid-item {
+  width: 400px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+  font-size: 20px;
+
+}
+
+.imgrid {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-image: url(./images/poisk.png);
+  width: 37px;
+  height: 37px;
+}
+
+.h1grid {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.pgrid {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+
+.content5 {
+  width: 100%;
+  height: 673px;
+  background-color: #17002E;
+  font-family: 'Roboto';
+}
+
+.h15 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+  padding: 60px;
+}
+
+
+.imgrid2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-image: url(./images/Vector.png);
+  width: 28px;
+  height: 24px;
+}
