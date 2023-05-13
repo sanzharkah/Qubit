@@ -116,12 +116,13 @@
 
 
 .overlay--active {
-    width: 100%;
+    width: 360px;
   }
   
 
 .overlay__content {
     display: flex;
+    width: 360px;
     height: 100%;
     flex-direction: column;
     align-items: center;
@@ -161,7 +162,7 @@
     }
   }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 360px) {
   .nav__links,
   .cta {
     display: none;
@@ -795,7 +796,7 @@ ul{
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 360px) {
   .container {
     width: 360px;
     height: 395px;
@@ -855,15 +856,26 @@ ul{
     margin-left: -10px;
     border: #6F2CFF;
   }
+  .h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+  }
   .brends {
     height: 967px;
     width: 360px;
   }
   .nav_brends {
+    margin-top: -40px;
     height: 800px;
     width: 360px;
     display: inline-block;
     list-style: none;
+  } 
+    li {
+      display: flex;
+      justify-content: center;
+      padding: 35px;
   }
   .h5 {
     width: 170px;
@@ -894,6 +906,8 @@ ul{
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
+    margin-top: -20px;
+    margin-left: 5px;
   }
   .p3 {
     width: 320px;
@@ -904,6 +918,7 @@ ul{
     font-size: 14px;
     line-height: 25px;
     text-align: center;
+    margin-left: -45px;
   }
   .img3 {
     display: none;
@@ -914,8 +929,9 @@ ul{
   .butcont {
     width: 360px;
     height: 100px;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
   }
   
   
@@ -937,11 +953,29 @@ ul{
     margin-left: -10px;
     border-radius: 30px;
     border: white;
+    margin-top: 20px;
   }
+
   .content4 {
     width: 360px;
     height: 1650px;
     font-family: 'Roboto';
+  }
+  .h1con4 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 24px;
+    margin-top: 58px;
+  }
+  .pcon4 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 22px;
   }
   .grid-container {
     display: inline-block;
@@ -954,16 +988,120 @@ ul{
     background-color: rgba(255, 255, 255, 0.8);
     padding: 50px;
     font-size: 20px;
+    margin-left: -100px;
+  }
+  .h1grid {
+    width: 216px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    margin-top: 20px;
+  }
+  .pgrid {
+    width: 260x;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: -50px;
+    margin-top: 10px;
   }
   .content5 {
     width: 360px;
-    height: 1650px;
+    height: 1500px;
     background-color: #17002E;
     font-family: 'Roboto';
   }
+  .h15 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 60px;
+  }
   .grid-container2 {
     display: inline-block;
+    padding: 20px;
     width: 360px;
     height: 1550px;
+  }
+  .grid-item2 {
+    width: 320px;
+    height: 400px;
+    background-color: #edf0f1;
+    border-radius: 7px 7px 7px 7px;
+    margin-top: 20px;
+  }
+  .gridimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/Rectangle342.png);
+    width: 320px;
+    height: 205px;
+    border-radius: 7px 7px 0px 0px;
+  }
+  .gridimg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/Rectangle-1.png);
+    width: 320px;
+    height: 205px;
+    border-radius: 7px 7px 0px 0px;
+  }
+  .gridimg3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/Rectangle-2.png);
+    width: 320px;
+    height: 205px;
+    border-radius: 7px 7px 0px 0px;
+  }
+  .content6 {
+    width: 360px;
+    height: 1500px;
+  }
+  .h1c6 {
+    width: 248px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 57px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .pc6 {
+    width: 320px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .grid-container3 {
+    width: 360px;
+    height: 1500px;
+    display: inline-block;
+  }
+  .grid-item3 {
+    width: 320px;
+    height: 200px;
+    background: #17002E;
+    border-radius: 8px 10px 10px 8px;
+    margin: 30px;
+    margin-left: -340px;
   }
 }
