@@ -228,7 +228,6 @@
 }
 
 
-
 .poisk input{
   height: 45px;
   width: 268px;
@@ -415,8 +414,8 @@
   justify-content: center;
   margin: auto;
   background-image: url(./images/poisk.png);
-  width: 37px;
-  height: 37px;
+  width: 50px;
+  height: 50px;
 }
 
 .h1grid {
@@ -781,7 +780,7 @@ ul{
 	background-color: #ffffff;
 }
 
-/*responsive*/
+/* responsive
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
@@ -792,7 +791,7 @@ ul{
   .footer-col{
     width: 100%;
 }
-}
+} */
 
 
 
@@ -809,7 +808,7 @@ ul{
     padding: 20px;
   }
   .texts {
-    width: 360px;
+    width: 330px;
     height: 365px;
     font-family: 'Roboto';
     margin-top: 50px;
@@ -849,7 +848,7 @@ ul{
   }
   .but {
     height: 45px;
-    width: 110px;
+    width: 90px;
     background: #6F2CFF;
     border-radius: 0px 27.5px 27.5px 0px;
     color: white;
@@ -899,7 +898,7 @@ ul{
     height: 200px;
   }
   .h13 {
-    width: 320px;
+    width: 250px;
     height: 24px;
     display: flex;
     justify-content: flex-start;
@@ -907,7 +906,7 @@ ul{
     font-size: 18px;
     line-height: 24px;
     margin-top: -20px;
-    margin-left: 5px;
+    margin-left: 8px;
   }
   .p3 {
     width: 320px;
@@ -1069,13 +1068,14 @@ ul{
   }
   .content6 {
     width: 360px;
-    height: 1500px;
+    height: 1700px;
   }
   .h1c6 {
     width: 248px;
     height: 24px;
     display: flex;
-    justify-content: center;
+    text-align: center;
+    margin: auto;
     margin-top: 57px;
     font-weight: 700;
     font-size: 18px;
@@ -1085,7 +1085,8 @@ ul{
     width: 320px;
     height: 60px;
     display: flex;
-    justify-content: center;
+    text-align: center;
+    margin: auto;
     margin-top: 12px;
     font-weight: 400;
     font-size: 18px;
@@ -1094,14 +1095,75 @@ ul{
   .grid-container3 {
     width: 360px;
     height: 1500px;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 360px 0 0 0;
   }
   .grid-item3 {
-    width: 320px;
+    width: 300px;
     height: 200px;
     background: #17002E;
     border-radius: 8px 10px 10px 8px;
     margin: 30px;
     margin-left: -340px;
+    margin-left: 0;
+    
   }
+  .p2c6 {
+    width: 264.35px;
+    height: 44px;
+    color: white;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .p3c6 {
+    font-weight: 400;
+    font-size: 15px;
+    width: 242px;
+    height: 50px;
+    color: white;
+    margin: 20px;
+    margin-top: -15px;
+    border-bottom: 2.5px solid white;
+  }
+  .footer{
+    width: 360px;
+    height: 1350px;
+    background-color: #20003C;
+  }
+  .pol {
+    display: inline-block;
+    width: 360px;
+    height: 1150px;
+    padding: 0;
+  }
+  .footer-col{
+    width: 100%;
+ }
+ .footer-col h4{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+	position: relative;
+}
+.footer-col ul li:not(:last-child){
+  display: flex;
+  justify-content: flex-start;
+	margin-bottom: -50px;
+}
+.footer-col ul li a{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
 }
